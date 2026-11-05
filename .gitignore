@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+/.pnp/
+.pnp.*
+
+# Next.js and build output
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Logs and local caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.turbo/
+.cache/
+
+# Editor and OS files
+.idea/
+.vscode/
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Local tools, references, and non-core material
+/ui-libbrary/
+/.agents/
+/skills/
+/HOW TO USE COMPONENT/
+/design-refference/
+
+# Test coverage and runtime artifacts
+coverage/
+*.lcov
+.vercel/
+
+# Local database/storage artifacts
+*.sqlite
+*.sqlite3
+*.db
+
+# Keep documentation tracked
+!/docs/
+!/docs/**
